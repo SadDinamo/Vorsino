@@ -36,6 +36,17 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
+
+        ['label' => 'Справочники', 'items' => [
+            '<li class="dropdown-header">Для юзеров</li>',
+            ['label' => 'Документы', 'url' => ['/ismdoc/index']],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Для админов</li>',
+            ['label' => 'Пользователи', 'url' => ['/user/index']],
+            ['label' => 'Настройки', 'url' => ['/preferencies/index']],
+        ]],
+
+
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Contact', 'url' => ['/site/contact']],

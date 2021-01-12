@@ -17,6 +17,10 @@ $this->title = 'My Yii Application';
     <div class="body-content">
 
         <div class="row">
+            <p><a href="https://github.com/yii2-starter-kit/yii2-file-kit" target="_blank">GitHub - file management</a></p>
+        </div>
+
+        <div class="row">
             <div class="col-lg-4">
                 <h2>Heading</h2>
 
