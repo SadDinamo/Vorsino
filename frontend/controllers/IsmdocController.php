@@ -120,11 +120,7 @@ class IsmdocController extends Controller
 
         $model = $this->findModel($id);
 
-        
-
     }
-
-
 
     /**
      * Updates an existing Ismdoc model.
@@ -155,8 +151,8 @@ class IsmdocController extends Controller
      */
     public function actionDelete($id)
     {
+        
         $this->findModel($id)->delete();
-
         return $this->redirect(['index']);
     }
 

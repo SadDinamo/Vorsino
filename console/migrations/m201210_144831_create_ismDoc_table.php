@@ -20,7 +20,6 @@ class m201210_144831_create_ismDoc_table extends Migration
             'authorId' => $this->integer(),
             'uploadedOn' => $this->dateTime(),
             'link' => $this->string()->unique(),
-            'latestLink' => $this->string()->Null(), // Сссылка на последнюю утвержденную версию
             'status' => $this->integer()->notNull(),
         ]);
 
